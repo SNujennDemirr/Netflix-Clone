@@ -1,0 +1,63 @@
+#features > nav {
+    padding-top: 35px;
+    background-color: #141414;
+    border-bottom: 2px solid #3d3d3d;
+  }
+  #features > nav a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777;
+    height: 125px;
+    line-height: 20px;
+  }
+  #features > nav a.is-selected {
+    border-bottom: 5px solid #e50914;
+    color: white;
+  }
+  #features > nav a.is-selected img {
+    opacity: 1;
+  }
+  #features > nav a:hover {
+    color: white;
+  }
+  #features > nav a img {
+    height: 49px;
+    opacity: 0.5;
+  }
+  #features > nav a:hover img {
+    opacity: 1;
+  }
+  #features #watchanywhere h2 {
+    font-size: 19px;
+    padding-right: 1em;
+    margin: 0 0 20px;
+  }
+  #features #pickprice h2 {
+    font-size: 22px;
+    display: inline;
+    margin: 0 40px 0 0;
+  }
+  #features > article {
+    margin-bottom: 120px;
+  }
+  #features > article h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 60px 0 20px;
+  }
+  #features > article > section {
+    display: none;
+    padding: 40px 0;
+  }
+  #features > article > section.is-selected {
+    display: block;
+  }
+  .columns {
+    display: flex;
+  }
+  #features > article img {
+    max-width: 100%;
+  }
+  
