@@ -1,4 +1,13 @@
 import React, { useState } from 'react';
+import './Features.css';
+import cancelIcon from '../../assets/cancel.svg';
+import watchAnywhereIcon from '../../assets/watchanywhere.svg';
+import pickPriceIcon from '../../assets/pickprice.svg';
+import cancelAnytimeImg from '../../assets/cancelanytime_withdevice.png';
+import tvImg from '../../assets/asset_TV_UI.png';
+import mobileImg from '../../assets/asset_mobile_tablet_UI_2.png';
+import websiteImg from '../../assets/asset_website_UI.png';
+import './features.css';  
 
 // FeatureCard Component
 const FeatureCard = ({ imgSrc, title, description }) => (
